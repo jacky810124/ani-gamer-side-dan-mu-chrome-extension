@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Ani Gamer Dan Mu Magic Wand",
+  "description": "Hide ani gamer side dan mu",
+  "version": "1.0",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
